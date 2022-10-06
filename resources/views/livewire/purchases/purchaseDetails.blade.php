@@ -1,0 +1,4 @@
+<div>
+    asdasdasdasdasdsad
+    {{$post}}
+</div>
