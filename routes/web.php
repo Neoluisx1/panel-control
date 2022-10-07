@@ -14,7 +14,6 @@ use App\Http\Livewire\PurchasesAdd;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\DetailsPurchase;
 use App\Http\Livewire\Ventas;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
