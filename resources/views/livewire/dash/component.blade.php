@@ -3,7 +3,8 @@
         <div class="col-span-12 md:col-span-3">
             <div class="intro-y box p-5">
                 <div>
-                    <label for="crud-form-1" class="form-label">Elige el año de las Consultas</label>                
+                    <label for="crud-form-1" class="form-label">Elige el año de las Consultas</label>
+                    @csrf
                     <select wire:model="year" class="form-select form-select-lg">
                         @foreach($listYears as $y)
                         <option value="{{$y}}">{{$y}}</option>
